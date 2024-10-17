@@ -1,0 +1,6 @@
+robotframework==6.1.1
+robotframework-browser==14.1.0
+Faker==30.6.0
+
+
+

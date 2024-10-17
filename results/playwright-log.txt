@@ -1,0 +1,56 @@
+{"level":30,"time":"2024-10-16T22:52:54.912Z","pid":17304,"hostname":"RSI0315","msg":"Listening on 50256"}
+(node:17304) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-10-16T22:52:55.057Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-10-16T22:52:55.233Z","pid":17304,"hostname":"RSI0315","msg":"Adding browser to stack: webkit, version: 18.0"}
+{"level":30,"time":"2024-10-16T22:52:55.234Z","pid":17304,"hostname":"RSI0315","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-10-16T22:52:55.234Z","pid":17304,"hostname":"RSI0315","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-10-16T22:52:55.240Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-10-16T22:52:55.240Z","pid":17304,"hostname":"RSI0315","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-10-16T22:52:55.278Z","pid":17304,"hostname":"RSI0315","msg":"Changed active context"}
+{"level":30,"time":"2024-10-16T22:52:55.978Z","pid":17304,"hostname":"RSI0315","msg":"Video path: undefined"}
+{"level":30,"time":"2024-10-16T22:52:55.979Z","pid":17304,"hostname":"RSI0315","msg":"Changed active page"}
+{"level":30,"time":"2024-10-16T22:52:56.681Z","pid":17304,"hostname":"RSI0315","msg":"End of node method newPage"}
+{"level":30,"time":"2024-10-16T22:53:06.695Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-10-16T22:53:06.695Z","pid":17304,"hostname":"RSI0315","msg":"Strict mode is enabled, find Locator with id=Username in page."}
+{"level":30,"time":"2024-10-16T22:53:16.706Z","pid":17304,"hostname":"RSI0315","msg":"Error of node method  fillText"}
+================= Original suppressed error =================
+locator.fill: Timeout 10000ms exceeded.
+Call log:
+  [2m- waiting for locator('id=Username')[22m
+
+    at fillText (C:\Users\FábiodeMônacoAraújo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10532:17)
+    at async PlaywrightServer.fillText (C:\Users\FábiodeMônacoAraújo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11611:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-10-16T22:53:16.755Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-10-16T22:53:16.756Z","pid":17304,"hostname":"RSI0315","Take screenshot with options: ":{"path":"C:\\repositorio\\template-robot-keeggo\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-10-16T22:53:16.868Z","pid":17304,"hostname":"RSI0315","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-10-16T22:53:16.883Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.887Z","pid":17304,"hostname":"RSI0315","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.889Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.891Z","pid":17304,"hostname":"RSI0315","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.894Z","pid":17304,"hostname":"RSI0315","msg":"Changed active context"}
+{"level":30,"time":"2024-10-16T22:53:16.894Z","pid":17304,"hostname":"RSI0315","msg":"Changing current active page: page=80f76f24-bfda-4081-9a2e-0f6071f31d2a"}
+{"level":30,"time":"2024-10-16T22:53:16.894Z","pid":17304,"hostname":"RSI0315","msg":"Changed active page"}
+{"level":30,"time":"2024-10-16T22:53:16.900Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.902Z","pid":17304,"hostname":"RSI0315","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.905Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-10-16T22:53:16.906Z","pid":17304,"hostname":"RSI0315","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-10-16T22:53:16.910Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-10-16T22:53:16.911Z","pid":17304,"hostname":"RSI0315","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-10-16T22:53:16.915Z","pid":17304,"hostname":"RSI0315","msg":"Changing current active page: page=80f76f24-bfda-4081-9a2e-0f6071f31d2a"}
+{"level":30,"time":"2024-10-16T22:53:16.915Z","pid":17304,"hostname":"RSI0315","msg":"Changed active page"}
+{"level":30,"time":"2024-10-16T22:53:16.921Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.924Z","pid":17304,"hostname":"RSI0315","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.926Z","pid":17304,"hostname":"RSI0315","msg":"Changed active context"}
+{"level":30,"time":"2024-10-16T22:53:16.926Z","pid":17304,"hostname":"RSI0315","msg":"Changing current active page: page=80f76f24-bfda-4081-9a2e-0f6071f31d2a"}
+{"level":30,"time":"2024-10-16T22:53:16.926Z","pid":17304,"hostname":"RSI0315","msg":"Changed active page"}
+{"level":30,"time":"2024-10-16T22:53:16.929Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-10-16T22:53:16.939Z","pid":17304,"hostname":"RSI0315","msg":"Removed page=ef610ac1-25ec-405d-89d3-e1aec427ecb8 from context=5f417231-946a-4f9d-828c-cb5c9b27d302 page stack"}
+{"level":30,"time":"2024-10-16T22:53:16.940Z","pid":17304,"hostname":"RSI0315","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-10-16T22:53:16.955Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:16.955Z","pid":17304,"hostname":"RSI0315","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-16T22:53:17.572Z","pid":17304,"hostname":"RSI0315","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-10-16T22:53:17.610Z","pid":17304,"hostname":"RSI0315","msg":"End of node method closeAllBrowsers"}
