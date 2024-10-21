@@ -1,17 +1,19 @@
 *** Settings ***
 Documentation    Ações e elementos da pagina de login
 
-Library           Browser
-Resource    ../resources/base.resource
+Resource    ../resources/Base.resource
 
 *** Variables ***
-${USUARIO}    id=Username
-${SENHA}    id=Password
+${CAMPO_USUARIO}    id=Username
+${CAMPO_SENHA}    id=Password
 ${BOTAO_LOGIN}    id=login-button
 
 *** Keywords ***
+Navegar para login
+    Go To    ${URL_BASE}account/login
+
 Preencher login
-    [Arguments]    ${user}    ${senha}
-    Fill Text    ${USUARIO}    ${user}
-    Fill Text    ${SENHA}    ${senha}
+    [Arguments]    ${usuario}    ${senha}
+    Fill Text    ${CAMPO_USUARIO}    ${usuario}
+    Fill Text    ${CAMPO_SENHA}    ${senha}
     Click     ${BOTAO_LOGIN}

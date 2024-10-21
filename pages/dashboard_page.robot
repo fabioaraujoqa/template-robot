@@ -1,8 +1,7 @@
 *** Settings ***
 Documentation    Ações e elementos da pagina de login
 
-Library           Browser
-Resource    ../resources/base.resource
+Resource    ../resources/Base.resource
 
 *** Variables ***
 ${H2_TITLE}    css=.text-left

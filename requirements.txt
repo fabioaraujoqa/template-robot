@@ -1,5 +1,6 @@
-robotframework==6.1.1
-robotframework-browser==14.1.0
+robotframework==7.1.1
+robotframework-browser==18.9.1
+robotframework-jsonlibrary==0.5
 Faker==30.6.0
 
 

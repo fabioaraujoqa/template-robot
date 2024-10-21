@@ -1,0 +1,23 @@
+{
+    "nome": "Fabio JSON",
+    "sobrenome": "Araujo",
+    "senha": "Teste@123",
+    "confirma_senha": "${EMPTY}",
+    "time_zone": "Pacific Standard Time",
+    "idioma": "Inglês",
+    "formato_data": "DD/MM/YYYY",
+    "empresa": "Keeggo",
+    "cargo": "QA",
+    "email": "${EMPTY}",
+    "site": "https://keeggo.com",
+    "endereco1": "Avenida Paulista 1001",
+    "endereco2": "Jardins",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "01310-100",
+    "pais": "Brasil",
+    "tel_trabalho": "1133333333",
+    "tel_celular": "11999999999",
+    "skype": "fabio.skype",
+    "twitter": "fabio.twitter"
+}
