@@ -1,6 +1,9 @@
 # template-robot
 
+Referência: 
 https://github.com/MarketSquare/robotframework-browser
+
+Documentação em: https://marketsquare.github.io/robotframework-browser/Browser.html
 
 instalar o node 
 instalar o python
@@ -12,14 +15,15 @@ rfbrowser init
 executar:
 robot -d results nome_arquivo.robot
 
-
-doc keywords
-https://marketsquare.github.io/robotframework-browser/Browser.html
-
 Rodar com tags
 robot -d results -i negativo  .\tests\login_edukee_test.robot
 
+Rodar com variáveis de ambiente caso precise mudar o ambiente: 
+source .env.qa && robot -d results tests/login_test.robot
 
-Pendencias: 
-- Ver connect string cpm banco : Psycopg2 
+Ou pode carregar primeiro a variável de ambiente antes de rodar os testes:
+source .env.qa
+
+
+
 

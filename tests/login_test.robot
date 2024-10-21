@@ -6,20 +6,23 @@ Resource        ../resources/Base.resource
 Test Setup    Iniciar sessão
 Test Teardown    Finalizar sessão
 
+*** Variables ***
+${email}        fabio.araujo@keeggo.com
+${senha}        Fff@2020
+
 *** Test Cases ***
 Login com sucesso sem reaproveitamento
-    [Tags]    positivo
-    New Page    https://edukee.keeggo.com/
-    Fill Text        id=Username        fabio.araujo@keeggo.com
-    Fill Text       id=Password        Fff@2020
+    [Tags]    pos
+    Fill Text        id=Username        ${USUARIO}
+    Fill Text       id=Password        ${SENHA}
     Click       id=login-button
     Wait For Elements State    css=.text-left    visible    5s  
-    Get Text    css=.text-left   contains    Conquistas recentes
+    Get Text    css=.text-left   contains    Olá, TESTE KEEGGO
 
-Login usando keyword customizado
+Login usando keyword customizado e variável de ambiente
     [Tags]    key     
-    Preencher login             fabio.araujo@keeggo.com        Fff@2020   
-    Get Text    css=.text-left   contains    Conquistas recentes
+    Preencher login             ${USUARIO}        ${SENHA}  
+    Validar boas vindas    Conquistas recentes
     
 Login com sucesso usando massa de dados
     [Tags]    positivo

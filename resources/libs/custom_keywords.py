@@ -1,12 +1,18 @@
-from Browser import Browser
+from robot.api.deco import keyword
 
-browser = None
+class CustomKeywords:
+    
+    @keyword("Diga Olá")
+    def say_hello(self, name):
+        print(f"Hello, {name}!")
 
-def set_browser_instance(browser_instance):
-    global browser
-    browser = browser_instance
+    @keyword("Somar dois números")
+    def add_two_numbers(self, a, b):
+        return a + b
 
-def executar_javascript(script):
-    if browser is None:
-        raise ValueError("Browser instance is not set.")
-    return browser.evaluate_javascript(script)
+    @keyword("Checar se número é par")
+    def check_if_number_is_even(self, number):
+        if number % 2 == 0:
+            return True
+        else:
+            return False

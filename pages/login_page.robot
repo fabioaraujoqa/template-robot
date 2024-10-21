@@ -10,7 +10,7 @@ ${BOTAO_LOGIN}    id=login-button
 
 *** Keywords ***
 Navegar para login
-    Go To    ${URL_BASE}account/login
+    Go To    ${BASE_URL}account/login
 
 Preencher login
     [Arguments]    ${usuario}    ${senha}
